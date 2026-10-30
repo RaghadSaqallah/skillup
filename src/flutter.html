@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flutter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+
+</head>
+
+<body>
+
+    <header class="py-8  sticky top-0 backdrop-blur-[1px] md:relative">
+        <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 ">
+            <div class="flex items-center gap-14 ">
+                <a href="index.html"> <img src="images/logo.png" alt="">
+                </a>
+                <ul class="md:flex items-center gap-7 hidden">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#courses">Courses</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <a href=""
+                    class="py-3 px-3.5 bg-primary shadow-[4px_4px_0px_#2E2E2E] hover:scale-95 duration-300 inline-block ">Download
+                    Application</a>
+                <img src="images/menu.svg" class="md:hidden w-8 h-8 menu-btn" alt="">
+            </div>
+        </nav>
+
+        <div class="md:hidden w-full border-t-2 border-dark -top-50  duration-500  absolute bg-white mobile-menu  ">
+            <ul class="flex flex-col gap-4 items-center py-4  ">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#courses">Courses</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+
+        </div>
+
+    </header>
+
+
+    <main>
+        <!-- start hero section -->
+        <section
+            class="bg-[url('/images/Gemini_Generated_Image_ewd83bewd83bewd8.png')] bg-no-repeat bg-cover py-72 bg-center">
+        </section>
+        <!-- end hero section -->
+
+        <section data-course="flutter-course" class="mt-7 px-6">
+            <div class="max-w-6xl mx-auto pt-6">
+                <h2 class="text-dark text-6xl pb-5">Modules</h2>
+                <hr class="">
+
+                <!-- progress bar -->
+                <div class="w-full h-8 bg-gray-300 rounded-full overflow-hidden my-4 relative">
+                    <div id="progress-bar" class="h-full w-[0%] bg-dark rounded-full transition-all duration-500"></div>
+                    <span id="progress-label"
+                        class="absolute inset-0 flex items-center justify-center text-sm font-bold text-white">
+                        0 completed</span>
+                </div>
+                <div class="py-4 flex items-center justify-between parent">
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=Dv39fDYei9A&list=PLknwEmKsW8OuN04Odt2sJqt4aAnkp-iYA&index=1"
+                            class="flex items-center gap-3  youtube-link " target="_blank">
+                            <i
+                                class="fa-brands fa-youtube text-dark text-2xl hover:text-red-600 duration-300 border-r-2 border-dark pr-8 "></i>
+                            <p>First Lecture </p>
+                        </a>
+                    </div>
+                    <div class="py-1 px-2 border-dark border-2 rounded-b-full  check">
+                        <i class="fa-solid fa-check text-dark  "></i>
+                    </div>
+                </div>
+
+
+                <div class="py-4 flex items-center justify-between parent">
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=Dv39fDYei9A&list=PLknwEmKsW8OuN04Odt2sJqt4aAnkp-iYA&index=1"
+                            class="flex items-center gap-3  youtube-link " target="_blank">
+                            <i
+                                class="fa-brands fa-youtube text-dark text-2xl hover:text-red-600 duration-300 border-r-2 border-dark pr-8 "></i>
+                            <p>Second Lecture</p>
+                        </a>
+                    </div>
+                    <div class="py-1 px-2 border-dark border-2 rounded-b-full   check">
+                        <i class="fa-solid fa-check text-dark  "></i>
+                    </div>
+                </div>
+
+
+
+
+                <div class="py-4 flex items-center justify-between parent">
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=Dv39fDYei9A&list=PLknwEmKsW8OuN04Odt2sJqt4aAnkp-iYA&index=1"
+                            class="flex items-center gap-3  youtube-link" target="_blank">
+                            <i
+                                class="fa-brands fa-youtube text-dark text-2xl hover:text-red-600 duration-300 border-r-2 border-dark pr-8 "></i>
+                            <p>third Lecture</p>
+                        </a>
+                    </div>
+                    <div class="py-1 px-2 border-dark border-2 rounded-b-full check ">
+                        <i class="fa-solid fa-check text-dark  "></i>
+                    </div>
+                </div>
+
+
+                <div class="py-4 flex items-center justify-between parent">
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=Dv39fDYei9A&list=PLknwEmKsW8OuN04Odt2sJqt4aAnkp-iYA&index=1"
+                            class="flex items-center gap-3  youtube-link" target="_blank">
+                            <i
+                                class="fa-brands fa-youtube text-dark text-2xl hover:text-red-600 duration-300 border-r-2 border-dark pr-8 "></i>
+                            <p>Fourth Lecture</p>
+                        </a>
+                    </div>
+                    <div class="py-1 px-2 border-dark border-2 rounded-b-full check ">
+                        <i class="fa-solid fa-check text-dark  "></i>
+                    </div>
+                </div>
+
+
+
+                <div class="py-4 flex items-center justify-between parent">
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=Dv39fDYei9A&list=PLknwEmKsW8OuN04Odt2sJqt4aAnkp-iYA&index=1"
+                            class="flex items-center gap-3  youtube-link" target="_blank">
+                            <i
+                                class="fa-brands fa-youtube text-dark text-2xl hover:text-red-600 duration-300 border-r-2 border-dark pr-8 "></i>
+                            <p>Fifth Lecture</p>
+                        </a>
+                    </div>
+                    <div class="py-1 px-2 border-dark border-2 rounded-b-full check ">
+                        <i class="fa-solid fa-check text-dark  "></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer class="bg-light text-dark pt-20 mt-10" id="footer">
+
+        <div class="grid md:grid-cols-2 max-w-5xl mx-auto grid-cols-1 px-6 text-center ">
+
+            <div class="flex flex-col gap-8 items-center  ">
+                <h2 class="font-bold text-4xl "> Lorem ipsum dolor sit amet.</h2>
+                <p class="text-[18px] text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, ipsa!
+                    Repudiandae
+                    itaque aut iusto
+                    quaerat.</p>
+            </div>
+
+            <div class="flex flex-col gap-4 items-center justify-center mt-10 md:mt-0">
+                <div class="flex items-center  gap-4">
+                    <p class="text-[18px]">raghadsaqallah@gmail.com</p>
+                    <img src="images/mail.svg" alt="">
+                </div>
+                <div class="flex items-center gap-4">
+                    <p class="text-[18px]">(+972)567892382 </p>
+                    <img src="images/phone.svg" alt="">
+                </div>
+                <a href=""
+                    class="py-4 px-10 bg-primary shadow-[4px_4px_0px_#2E2E2E] inline-block hover:scale-95 duration-300">Contact
+                    US</a>
+            </div>
+
+        </div>
+
+        <div class="max-w-7xl mx-auto pt-14 px-6 ">
+            <hr>
+            <div class="flex items-center md:justify-between md:flex-row flex-col pt-3 ">
+                <div class="flex items-center gap-2">
+                    <img src="images/logo.png" alt="logo">
+                    <p class="md:text-4xl font-bold text-2xl">SKILLUP</p>
+                </div>
+
+                <div class="flex gap-4 items-center py-9  ">
+                    <p class=" border-r-2 px-2">Our Social Media</p>
+
+                    <a href=""> <i
+                            class="fa-brands fa-instagram text-dark  text-2xl hover:text-primary duration-300"></i>
+                    </a>
+                    <a href=""> <i class="fa-brands fa-youtube text-dark text-2xl hover:text-primary duration-300"></i>
+                    </a>
+                    <a href=""> <i
+                            class="fa-brands fa-square-facebook text-dark text-2xl hover:text-primary duration-300"></i>
+                    </a>
+                    <a href=""> <i class="fa-brands fa-linkedin text-dark text-2xl hover:text-primary duration-300"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </footer>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

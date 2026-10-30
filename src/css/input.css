@@ -1,0 +1,22 @@
+ @font-face {
+     font-family: "lato";
+     font-style: normal;
+     src: url("/fonts/Lato-Bold.ttf")format("truetype");
+
+ }
+
+ @font-face {
+     font-family: "lato";
+     src: url("/fonts/Lato-Regular.ttf") format("truetype");
+ }
+
+ @import "tailwindcss";
+
+ @theme {
+     --color-primary: #F5BD33;
+     --color-secondary: #3FBDF1;
+     --color-dark: #2E2E2E;
+     --color-light: #CBEDFB;
+     --font-lato: lato, "sans-serif";
+
+ }
